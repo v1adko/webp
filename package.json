@@ -1,0 +1,23 @@
+{
+  "name": "webp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "bun": "1.1.33"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "bun --bun ./src/install.ts",
+    "start": "bun --bun ./src/webp.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bun": "^1.1.33"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.12"
+  }
+}
