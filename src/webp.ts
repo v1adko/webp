@@ -8,7 +8,7 @@ if (!directoryPath) {
   throw new Error("Specify directory containing images");
 }
 
-const QUALITY = 75; // Out of 100
+const QUALITY = 90; // Out of 100
 
 const convert = async (imagePathWithExtension: string, outDir = "") => {
   const imageNameWithExtension = imagePathWithExtension.split("/").pop() ?? "";
